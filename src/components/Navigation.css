@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+#btn {
+    position: relative;
+    font-family: "Nunito Sans", sans-serif;
+    
+}
+
+#btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 20px; 
+    width: 99%;
+    border-bottom: 1px solid transparent; 
+    transition: border-color 0.5s ease; 
+}
+
+#btn:hover::after {
+    border-color: #ffffff; /* Change the color to your desired color */
+}

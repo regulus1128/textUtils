@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+#btns{
+    margin-top: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: 150px;
+    opacity: 0.8;
+
+}
+
+.btn:hover{
+    opacity: 1;
+}
+#message{
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-size: 1.2rem;
+
+
+}
+.summary{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.transparent-textarea {
+    opacity: 0.7; /* Adjust the value as needed */
+}
