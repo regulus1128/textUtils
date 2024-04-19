@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <Router basename='/textUtils'>
+     
 
       {<Navigation/>} 
       <div className="heading">
@@ -42,7 +42,6 @@ function App() {
       With its user-friendly interface, textUtils makes it easy for users to perform a wide range of text operations quickly and efficiently. Simply input your text into the designated area, select the desired function from the menu, and let textUtils do the rest.</p>
       </footer>
       )}
-      </Router>
 
 
       
