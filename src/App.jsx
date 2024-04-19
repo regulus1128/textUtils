@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { Router, useLocation } from 'react-router-dom'
 
 import './App.css'
 import Navigation from './components/Navigation'
@@ -18,12 +18,14 @@ function App() {
 
   return (
     <>
+      <Router basename='/textUtils'>
+
       {<Navigation/>} 
       <div className="heading">
 
       {showHeader && (
-      <h1>WELCOME TO textUtils!</h1>
-      )}
+        <h1>WELCOME TO textUtils!</h1>
+        )}
       </div>
       
       <Routes>
@@ -34,12 +36,13 @@ function App() {
       </Routes>
 
       {showFooter && (
-      <footer>
+        <footer>
       <p>textUtils is your go-to online tool for all things text manipulation. Whether you need to convert text to uppercase or lowercase, reverse a string, copy text, or perform various other text-related tasks, textUtils has got you covered.
 
       With its user-friendly interface, textUtils makes it easy for users to perform a wide range of text operations quickly and efficiently. Simply input your text into the designated area, select the desired function from the menu, and let textUtils do the rest.</p>
       </footer>
       )}
+      </Router>
 
 
       
