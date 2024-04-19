@@ -5,6 +5,20 @@
     <link rel="icon" type="image/svg+xml" href="icons8-text-windows-11-color-96.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="TextUtils is your go-to online tool for all things text manipulation. Whether you need to convert text to uppercase or lowercase, reverse a string, copy text, or perform various other text-related tasks, TextUtils has got you covered."/>
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
     <title>textUtils</title>
   </head>
   <body>
